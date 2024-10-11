@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+/* Day Mode */
+body {
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* White text */
+}
+
+/* Navbar and footer styles */
+.navbar, footer {
+    transition: background-color 0.3s;
+}
+
+/* Day mode navbar */
+.navbar {
+    background-color: #007bff; /* Blue background */
+}
+
+/* Dark mode navbar */
+.dark-mode .navbar {
+    background-color: #343a40; /* Darker color for navbar in dark mode */
+}
+
+/* Card styles */
+.card {
+    transition: background-color 0.3s;
+}
+
+/* Card styles for day mode */
+.card {
+    background-color: #f8f9fa; /* Light card background */
+}
+
+/* Card styles for dark mode */
+.dark-mode .card {
+    background-color: #495057; /* Dark card background */
+}
+
+.hero {
+    height: 100vh;
+    background: url('your-hero-image.jpg') center center/cover no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section {
+    padding: 60px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
